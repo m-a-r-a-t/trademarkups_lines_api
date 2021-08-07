@@ -38,11 +38,15 @@ class Database:
                 'charts'][0]['panes'][0]['sources']
 
         for shape in shapes:
-                print(shape)
                 if 'priceAxisProperties' in shape['state']:
                     log = shape['state']['priceAxisProperties']['log']
                 if 'text' in shape['state'].keys():
-                    lines.append({"text": shape['state']['text'], "points": shape["points"]})
+                    data = {"text": shape['state']['text'], "points": shape["points"],'lineStyle':{
+                        'color':shape['state']['linecolor'],
+                        'style':shape['state']['linestyle'],
+                        'width':shape['state']['linewidth']
+                        }}
+                    lines.append(data)
 
         
 

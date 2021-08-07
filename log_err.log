@@ -36,3 +36,20 @@
 /var/www/trademarkups_lines_api/start.sh: line 2: 3438510 Quit                    python main.py
  * Running on http://95.182.120.52:8085/ (Press CTRL+C to quit)
 176.59.103.219 - - [07/Aug/2021 16:31:06] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 16:32:15] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 16:32:40] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 16:32:52] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 16:33:10] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 16:47:19] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+/var/www/trademarkups_lines_api/start.sh: line 2: 3439331 Quit                    python main.py
+ * Running on http://95.182.120.52:8085/ (Press CTRL+C to quit)
+176.59.103.219 - - [07/Aug/2021 16:55:32] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:06:04] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:06:59] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:07:27] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:07:57] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+/var/www/trademarkups_lines_api/start.sh: line 2: 3443145 Quit                    python main.py
+ * Running on http://95.182.120.52:8085/ (Press CTRL+C to quit)
+176.59.103.219 - - [07/Aug/2021 17:11:58] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:12:23] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
+37.145.111.214 - - [07/Aug/2021 17:13:33] "GET /charts?pair=BTCUSDT&chart_name=BTCUSDT%20-%20LOCAL HTTP/1.1" 200 -
