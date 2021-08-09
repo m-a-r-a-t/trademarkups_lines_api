@@ -36,7 +36,6 @@ class Database:
         chart = self.cursor.fetchall()[0]
         shapes = json.loads(json.loads(chart['content'])['content'])[
                 'charts'][0]['panes'][0]['sources']
-
         for shape in shapes:
                 if 'priceAxisProperties' in shape['state']:
                     log = shape['state']['priceAxisProperties']['log']
@@ -50,7 +49,7 @@ class Database:
 
         
 
-        return {'pair':pair,'chart_name':chart_name,'lines':lines,'log':log}
+        return {'pair':pair,'chart_name':chart_name,'lines':lines,'log':log,'timeframe':json.loads(chart['content'])['resolution']}
 
     def __getMarkupsFromDB(self):
         self.cursor.execute(
